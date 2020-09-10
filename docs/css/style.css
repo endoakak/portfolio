@@ -54,7 +54,7 @@ h1 {
 }
 
 .contact-wrapper {
-  background-color: rgb(184, 236, 184);
+  background-color: rgba(184, 236, 184, 0.7);
 }
 
 .heading {
@@ -70,7 +70,7 @@ h2 {
 }
 
 .about-contents {
-  width: 55vw;
+  width: 50vw;
 }
 
 .about-text {
@@ -131,22 +131,35 @@ h4 {
   /* width: calc(100% - 210px); */
 }
 
+.important {
+  /* text-shadow: 0px 0px 1px #808080; */
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .skills-contents {
-  width: 55vw;
+  width: 50vw;
 }
 
 .skills-list {
   list-style: none;
+}
+
+.skills-list-center {
   margin: 40px 0;
 }
 
 
 .contact-contents {
-  width: 55vw;
+  width: 50vw;
 }
 
+.contact-message {
+  margin: 10px 0;
+  font-size: 18px;
+}
 
-
-.contact {
-  height: 100vh;
+.contacts {
+  margin-left: 20px;
 }
