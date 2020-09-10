@@ -4,6 +4,36 @@
   box-sizing: border-box;
 }
 
+.gnav {
+  position: fixed;
+  background-color: white;
+  width: 100vw;
+  box-shadow: 1px 0 5px #808080;
+}
+
+.gnav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.gnav-item {
+  font-size: 16px;
+  padding: 0 36px;
+  letter-spacing: 0.1em;
+}
+
+.gnav-item:hover {
+  background-color: lightgray;
+}
+
+.gnav-link {
+  position: relative;
+  display: inline-block;
+  padding: 20px 0;
+  color: black;
+  text-decoration: none;
+}
+
 .background-image {
   background-image: url("../images/background.JPG");
   background-position: center center;
@@ -99,7 +129,7 @@ h4 {
   background: rgba(255,255,255, 0.8);
   padding: 30px 40px 40px 40px;
   margin-top: 50px;
-  height: 300px;
+  /* height: 300px; */
 }
 
 .tales {
