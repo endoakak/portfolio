@@ -9,6 +9,7 @@
   background-color: white;
   width: 100vw;
   box-shadow: 1px 0 5px #808080;
+  opacity: 0.9;
 }
 
 .gnav-list {
@@ -192,4 +193,10 @@ h4 {
 
 .contacts {
   margin-left: 20px;
+  list-style: none;
+  font-weight: bold;
+}
+
+.contacts a {
+  text-decoration: none;
 }
